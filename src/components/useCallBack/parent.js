@@ -10,8 +10,8 @@ export default function Parent() {
   };
 
   const fun = useCallback(() => {
-    console.log(counter2);
     setCounter2([...counter2, counter2.length + 1]);
+    console.log(counter2);
   }, [counter2]);
 
   return (
