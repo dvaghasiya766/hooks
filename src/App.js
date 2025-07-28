@@ -3,6 +3,7 @@ import "./App.css";
 import Counter1 from "./components/counter1";
 import StateTutorial from "./components/useState/stateTutorial";
 import Memo from "./components/useMemo/memoTutorial";
+import Parent from "./components/useCallBack/parent";
 
 class App extends Component {
   constructor() {
@@ -31,6 +32,7 @@ class App extends Component {
         >Click me</button>
         <StateTutorial />
         <Memo />
+        <Parent />
       </div>
     );
   }
