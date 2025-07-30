@@ -1,15 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
+
+import UseStateHook from "./components/useState/state"; // Capitalized import
+import UseEffectHook from "./components/useEffect/effect";
 
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello Word!</h1>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <UseStateHook />
+      <UseEffectHook />
+    </div>
+  );
+};
 
 export default App;

@@ -50,3 +50,62 @@
     transform: rotate(360deg);
   }
 }
+
+/* Universal input styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Placeholder style */
+::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Disabled field */
+input:disabled,
+textarea:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+  color: #888;
+}
+
+/* Error state */
+.input-error {
+  border-color: #e74c3c !important;
+  background-color: #fff5f5;
+}
+
+.input-error:focus {
+  box-shadow: 0 0 5px rgba(231, 76, 60, 0.4);
+}
+
+/* Optional label styling */
+label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: inline-block;
+  color: #333;
+}
