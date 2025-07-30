@@ -5,9 +5,9 @@ import UseEffectHook from "./components/useEffect/effect";
 import UseContextHook from "./components/useContext/context";
 import UseRefHook from "./components/useRef/ref";
 import UseReducerHook from "./components/useReducer/reducer";
+import UseLayoutEffectHook from "./components/useLayoutEffect/layoutEffect";
 
 import "./App.css";
-import UseLayoutEffectHook from "./components/useLayoutEffect/layoutEffect";
 
 const App = () => {
   return (
