@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const UseCustomHooks = (url) => {
   const [response, setResponse] = useState([]);
@@ -6,7 +6,8 @@ const UseCustomHooks = (url) => {
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setResponse(data)); //    .catch(setResponse([{ id: "404", name: "Not Found" }]));
+      .then((data) => setResponse(data));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return response;
