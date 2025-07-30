@@ -7,21 +7,23 @@ import UseRefHook from "./components/useRef/ref";
 import UseReducerHook from "./components/useReducer/reducer";
 import UseLayoutEffectHook from "./components/useLayoutEffect/layoutEffect";
 import UseMemoHook from "./components/useMemo/memo";
+import UseCallBackHook from "./components/useCallBack/callBack";
+import TestCustomHook from "./components/customHooks/testHooks";
 
 import "./App.css";
-import UseCallBackHook from "./components/useCallBack/callBack";
 
 const App = () => {
   return (
     <div className="App">
-      <UseStateHook />
+      {/* <UseStateHook />
       <UseEffectHook />
       <UseContextHook />
       <UseRefHook />
       <UseReducerHook />
       <UseLayoutEffectHook />
       <UseMemoHook />
-      <UseCallBackHook />
+      <UseCallBackHook /> */}
+      <TestCustomHook />
     </div>
   );
 };
