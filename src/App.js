@@ -9,6 +9,7 @@ import UseLayoutEffectHook from "./components/useLayoutEffect/layoutEffect";
 import UseMemoHook from "./components/useMemo/memo";
 
 import "./App.css";
+import UseCallBackHook from "./components/useCallBack/callBack";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <UseReducerHook />
       <UseLayoutEffectHook />
       <UseMemoHook />
+      <UseCallBackHook />
     </div>
   );
 };
