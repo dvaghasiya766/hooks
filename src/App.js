@@ -6,6 +6,7 @@ import UseContextHook from "./components/useContext/context";
 import UseRefHook from "./components/useRef/ref";
 import UseReducerHook from "./components/useReducer/reducer";
 import UseLayoutEffectHook from "./components/useLayoutEffect/layoutEffect";
+import UseMemoHook from "./components/useMemo/memo";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ const App = () => {
       <UseRefHook />
       <UseReducerHook />
       <UseLayoutEffectHook />
+      <UseMemoHook />
     </div>
   );
 };
