@@ -109,3 +109,150 @@ label {
   display: inline-block;
   color: #333;
 }
+/* ====================
+   🌐 Universal Reset
+==================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====================
+   🌙 Body & Root Styling
+==================== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #222;
+  background-color: #f9f9f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ====================
+   🧱 Headings
+==================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+
+/* ====================
+   📝 Paragraph & Text
+==================== */
+p {
+  margin-bottom: 1em;
+  color: #444;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* ====================
+   🔗 Links
+==================== */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* ====================
+   📑 Lists
+==================== */
+ul,
+ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ====================
+   🎛️ Form Elements (shared with your input CSS)
+==================== */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Button */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* ====================
+   🎨 Utility
+==================== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 16px;
+}
+.mb-1 {
+  margin-bottom: 8px;
+}
+.mb-2 {
+  margin-bottom: 16px;
+}
